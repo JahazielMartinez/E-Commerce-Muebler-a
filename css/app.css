@@ -6,10 +6,31 @@ html {
     box-sizing: inherit;
 }
 
-h1 {
-    color: #000;
+/* Globales */
+a {
+    text-decoration: none;
+    color: #000000 ;
+} 
+
+
+/* Header y navegación */
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
+.nombre-sitio span{
+    color: #037bc0;
+}
+
+.nav-principal {
+    border-top: 1px solid #e1e1e1;
+    padding: 20px 0;
+}
+
+
+/* Box Model */
 .sobre-nosotros{
     background-color: red;
     width: 200px;
