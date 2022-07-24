@@ -1,7 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
 h1 {
     color: #000;
 }
 
-.nombre-sitio span {
-    color: #037bc0;
+.sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    padding: 16px;
+    box-sizing: border-box;
 }
